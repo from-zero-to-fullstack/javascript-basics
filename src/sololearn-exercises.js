@@ -2,27 +2,27 @@
 var day = 3;
 switch (day) {
     case 1:
-        document.write("Monday");
+        console.log("Monday");
         break;
     case 2:
-        document.write("Tuesday");
+        console.log("Tuesday");
         break;
     case 3:
-        document.write("Wednesday");
+        console.log("Wednesday");
         break;
     default:
-        document.write("Another day");
+        console.log("Another day");
 }
 
 //the for loop statement
 var i = 1;
 for (k=1; k<10; k++) {
     i += k;
-    document.write(k + "<br/>");
+    console.log(k);
 }
 
 var i = 0;
 for(; i<10; ) {
-    document.write(i);
+    console.log(i);
     i++;
 }

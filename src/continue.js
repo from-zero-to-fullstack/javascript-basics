@@ -5,4 +5,4 @@ for (i = 4; i<8; i++){
     }
     sum += i;
 }
-document.write(sum);
+console.log(sum);
